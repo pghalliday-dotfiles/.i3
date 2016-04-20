@@ -160,3 +160,6 @@ bar {
         tray_output primary
         font pango:DejaVu Sans Mono 10
 }
+
+# start the network manager applet
+exec --no-startup-id nm-applet
