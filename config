@@ -168,3 +168,6 @@ bar {
 
 # start the network manager applet
 exec --no-startup-id nm-applet
+
+# start dropbox
+exec --no-startup-id dropbox start
